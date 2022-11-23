@@ -1,0 +1,105 @@
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   margin: 0;
+   height: 100vh;
+   color: #fff;
+   font-family: "Noto Serif TC", serif;
+   font-weight: 500;
+}
+h1,
+h4,
+.number {
+   margin: 0;
+}
+h1 {
+   font-size: 56px;
+   text-align: center;
+   margin-bottom: 60px;
+   font-weight: 700;
+}
+h4 {
+   font-size: 37px;
+   color: #4c5760;
+   font-weight: 700;
+}
+.number {
+   font-size: 80px;
+   margin-bottom: 40px;
+   color: #bbe5ed;
+}
+.description {
+   font-size: 17px;
+   line-height: 1.9;
+   color: #4c5760;
+   margin-top: 12px;
+   margin-bottom: 28px;
+}
+.meditations {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: 0 140px;
+   gap: 80px;
+}
+.meditation {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 360px;
+   height: 460px;
+   padding: 40px;
+   border-radius: 10px;
+   transition: all 0.4s ease-in-out;
+}
+.meditation:hover {
+   transform: scale(1.1);
+}
+.btn {
+   padding: 16px 30px;
+   border: none;
+   background: #fff;
+   width: 100%;
+   border-radius: 5px;
+   cursor: pointer;
+   box-shadow: 0px 0px 20px rgba(76, 87, 96, 0.2);
+   font-size: 18px;
+   color: #4c5760;
+   font-family: "Noto Serif TC", serif;
+   font-weight: 700;
+}
+.btn:hover {
+   background: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+   color: #fff;
+}
+.forest {
+   background: linear-gradient(-225deg, #e4ffe0 40%, #cff5ff 100%);
+}
+.ocean {
+   background: linear-gradient(-225deg, #e3fdf5 40%, #ffe6fa 100%);
+}
+.rain {
+   background: linear-gradient(-225deg, #fbfde3 40%, #ffe6fd 100%);
+}
+#bgVideo {
+   position: fixed;
+   top: 0;
+   right: 0;
+   min-height: 100%;
+   min-width: 100%;
+   z-index: -1;
+}
+footer {
+   text-align: center;
+   margin-top: 40px;
+}
+.webLink {
+   color: #b5c2ff;
+   text-decoration: none;
+   font-size: 16px;
+}
+.webLink:hover {
+   color: #74ebd5;
+}
