@@ -1,3 +1,9 @@
+const button = document.querySelector("#playBtn");
+button.addEventListener("click", function () {
+   document.querySelector("#player").play();
+   document.querySelector("#forestVideo").play();
+});
+
 const timer = 3;
 let timeAmount = timer * 60;
 
