@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Forest | Meditation App | 7x9.dev</title>
+      <link rel="stylesheet" href="rain.css" />
+      <link rel="icon" href="data:," />
+      <script
+         src="https://kit.fontawesome.com/63d05c05ac.js"
+         crossorigin="anonymous"
+      ></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&display=swap"
+         rel="stylesheet"
+      />
+   </head>
+   <body>
+      <div class="single-meditation">
+         <p id="countdown">3:00</p>
+
+         <a href="https://7x9dev.github.io/meditation-app/index.html"
+            ><button class="btn">
+               Back to home
+               <i class="fa-regular fa-circle-right fa-lg"></i></button
+         ></a>
+      </div>
+      <audio id="player" autoplay loop>
+         <source src="https://7x9dev.github.io/meditation-app/rain/rain.mp3" />
+      </audio>
+      <video
+         autoplay="autoplay"
+         loop="loop"
+         muted
+         defaultMuted
+         playsinline
+         id="rainVideo"
+      >
+         <source src="https://7x9dev.github.io/meditation-app/rain/rain.mp4" type="video/mp4" />
+      </video>
+      <script src="rain.js"></script>
+   </body>
+</html>

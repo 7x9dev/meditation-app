@@ -6,7 +6,11 @@ function calcTime() {
    let minutes = Math.floor(timeAmount / 60);
    let seconds = timeAmount % 60;
 
-   countdown.textContent = `${minutes} : ${seconds}`
+   if (seconds < 10) {
+      seconds = "0" + seconds;
+   }
+
+   countdown.textContent = `${minutes} : ${seconds}`;
    timeAmount--;
 
    if (timeAmount < 0) {
